@@ -1,0 +1,6 @@
+services:
+  http-server:
+   image: anestesia01/http-server:latest
+   ports:
+     - 8000:8000
+   restart: always
